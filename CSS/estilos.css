@@ -1,0 +1,98 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightsteelblue;
+}
+.centrar{
+    text-align: center;
+}
+header{
+    margin: 0;
+    padding: 30px 15px;
+    border-bottom: 10px solid lightsteelblue;
+    background-color: lightblue;
+    background-image: url("../img/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.contenedor {
+    padding: 0;
+    margin: 50px auto 0;
+    width: 960px;
+
+}
+.navbar{
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.navbar ul{
+    margin: 0;
+    padding:0px;
+    height: 50px;
+    list-style: none;
+}
+.navbar li{
+    float: left;
+    padding: 15px 20px;
+    color: black
+}
+.navbar a{
+    color: black;
+    padding: 0px 60px;
+    border-right: 2px solid black;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+.post{
+    background-color: antiquewhite;
+    border-bottom: 20px solid antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+.TablaPrecios{
+    width: 90%;
+    padding: 20px;
+    margin-left: 60px;
+    border-collapse: collapse;
+}
+.tablaImagenes{
+    width: 90%;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 15px;
+    border-collapse: collapse;
+}
+.TablaPrecios th{
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    overflow: hidden;
+}
+.TablaPrecios td{
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    overflow: hidden;}
+
+.post-body{
+    background-color: antiquewhite;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-right: 30px;
+}
+.post-header{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: lightcyan;
+    padding: 20px;
+}
